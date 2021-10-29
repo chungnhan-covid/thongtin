@@ -15,18 +15,21 @@ body {
   padding: 10px 0;
 }
 .app {
-  margin: 60px auto;
+  margin: auto;
   max-width: 610px;
   width: 100%;
   background: linear-gradient(to right, #237cfa, #57b8fc);
   color: white;
   text-align: center;
 }
-.app-top,
-.app-content__main {
-  padding: 20px 28px;
+.app-top {
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
 }
 .app-content__main {
+  padding: 20px;
   display: flex;
   color: #828282;
   justify-content: space-between;
