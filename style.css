@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #282828;
+}
+.text-light {
+  color: #fff;
+}
+.gap {
+  padding: 10px 0;
+}
+.app {
+  margin: 60px auto;
+  max-width: 610px;
+  width: 100%;
+  background: linear-gradient(to right, #237cfa, #57b8fc);
+  color: white;
+  text-align: center;
+}
+.app-top,
+.app-content__main {
+  padding: 20px 28px;
+}
+.app-content__main {
+  display: flex;
+  color: #828282;
+  justify-content: space-between;
+}
+.app-content__main i {
+  color: #3279e7;
+  font-size: 22px;
+}
+.app__icon {
+  float: left;
+}
+.app__title {
+  font-weight: 400;
+  font-size: 18px;
+}
+.app-content {
+  background-color: #fff;
+  margin-top: 22px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  overflow: hidden;
+}
+.app-content__main {
+  background-color: #f4f4f4;
+}
+.app-content__info {
+  background: #fff;
+  color: #0c0c0c;
+  padding: 20px;
+  text-align: left;
+}
+.app-content__group:not(:last-child) {
+  margin-bottom: 20px;
+}
+.app-content__text {
+  color: #818181;
+}
+.app-content__desc {
+  font-weight: 400;
+}
+.app-content__info h3 {
+  margin-bottom: 20px;
+}
+.app-box {
+  background-color: #f4f4f4;
+  padding: 12px 20px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+}
+.app-box:not(:last-child) {
+  margin-bottom: 20px;
+}
+.app-box__right {
+}
+.app-box__title {
+  font-size: 20px;
+}
+.app-box__border {
+  width: 1.1px;
+  height: 80px;
+  background-color: #c5c5c7;
+  margin: 0 18px;
+}
+.app-box__left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.app-box__left strong {
+  font-size: 38px;
+  font-weight: bold;
+}
+.app-box__left p {
+  font-weight: 500;
+}
+.app-box__text {
+  margin-top: 10px;
+}
+.app-box__round {
+  border-radius: 100%;
+  background: #e8c61e;
+  font-weight: 500;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-box__round--green {
+  background-color: #097947;
+}
+.app-check {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 14px;
+}
+.app-check strong:nth-child(2) {
+  color: #1d6e4d;
+  font-weight: bold;
+}
+.app-check p {
+  padding-top: 8px;
+  color: #1d6e4d;
+  font-weight: 500;
+}
